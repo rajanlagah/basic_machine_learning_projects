@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 #getting data on keyword
 public_tweets = api.search('boycottmodia')
 
-# for each tweet printing tweet + sentiment ponits
+# for each tweet printing tweet + sentiment ponits + subjectivity is how much its factual vs opinionated 
 for tweet in public_tweets:
     print(tweet.text)
     analysis = TextBlob(tweet.text)
