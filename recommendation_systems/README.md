@@ -10,6 +10,6 @@ User to recomment movies or songs etc
  ```
   pip install numpy #for math
   pip install scipy #for math
-  pip install lightm #for using some popular recommendation alog 
+  pip install lightfm #for using some popular recommendation alog 
   
  ```
